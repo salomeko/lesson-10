@@ -1,8 +1,8 @@
 @font-face {
     font-family: font1;
-    @import url'https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap'
+    @import src=url ('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&family=Roboto:wght@500&display=swap')
 }
-body{
+body {
     background-color: #F7F7F7;
 }
 header{
@@ -76,7 +76,7 @@ header{
     margin-top: 182px;
     margin-left: 180px;
     max-width: 1001px;
-    width: 1000%;
+    width: 100%;
 }
 .heading2 {
     font-family: font1;
@@ -335,7 +335,7 @@ header{
 .email{
     max-width: 500px;
     width: 100%;
-
+    height: 419.83px;
     display: inline-block;
     background-color: white;
 }
